@@ -35,6 +35,10 @@ pod "DeadPool-bin"
 
 ## Change Log
 
+v0.1.1
+
+* update pod spec
+
 v0.1.0
 
 * First binary version
