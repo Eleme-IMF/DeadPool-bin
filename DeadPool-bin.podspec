@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.frameworks = "UIKit"
   s.libraries = "stdc++"
   s.requires_arc = true
-  s.source = { :path => '.' }
+  s.source = { :git => 'git@github.com:Eleme-IMF/DeadPool-bin.git', :tag => s.version.to_s }
 
   s.ios.deployment_target    = '8.0'
   s.ios.vendored_framework   = 'ios/DeadPool.framework'
