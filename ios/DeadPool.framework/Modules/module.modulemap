@@ -1,6 +1,0 @@
-framework module DeadPool {
-  umbrella header "DeadPool.h"
-
-  export *
-  module * { export * }
-}
